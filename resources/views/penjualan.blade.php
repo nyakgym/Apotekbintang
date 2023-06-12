@@ -52,7 +52,7 @@
                                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='karyawan')?'active link-light bg-success' : 'link-dark'; ?>" href="karyawan"><i class="bi bi-table"></i> Data Karyawan</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='laporan')?'active link-light bg-success' : 'link-dark'; ?>" href="laporan"><i class="bi bi-clipboard2-fill"></i> Laporan Keuangan</a>
+                                            <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='laporan')?'active link-light bg-success' : 'link-dark'; ?>" href="laporan"><i class="bi bi-clipboard2-fill"></i> Laporan Penjualan</a>
                                         </li>
                 
                                     </ul>
@@ -67,12 +67,12 @@
                 <div class="col-lg-9 mt-2">
                     <div class="card">
                         <div class="card-header">
-                            Halaman Data Obat
+                            Halaman Data Penjualan
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col d-flex justify-content-end">
-                                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTambahUser">Tambah Obat</button>
+                                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTambahUser"> + Penjualan</button>
                                 </div>
                             </div>
                 
@@ -81,7 +81,7 @@
                                 <div class="modal-dialog modal-xl modal-fullscreen-md-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data Obat</h1>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data Penjualan</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
@@ -165,7 +165,7 @@
                             <!-- Akhir Modal Tambah Menu baru-->
                             <?php
                             if (empty($result)) {
-                                echo "Data Obat tidak ada";
+                                echo "Data Penjualan tidak ada";
                             } else {
                             foreach ($result as $row) {
                             ?>
