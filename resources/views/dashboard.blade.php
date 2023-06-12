@@ -27,16 +27,16 @@
                             <div class="card-body">
                               <h5 class="card-title">Data Obat</h5>
                               <p class="card-text">Hanya penjelasan singkat.</p>
-                              <a href="#" class="btn btn-success">Klik Disini</a>
+                              <a href="obat" class="btn btn-success">Klik Disini</a>
                             </div>
                           </div>
                         </div>
                         <div class="col-sm-6">
                           <div class="card">
                             <div class="card-body">
-                              <h5 class="card-title">Data Supplier</h5>
+                              <h5 class="card-title">Data Pemasok/Supplier</h5>
                               <p class="card-text">Hanya penjelasan singkat.</p>
-                              <a href="#" class="btn btn-success">Klik Disini</a>
+                              <a href="pemasok" class="btn btn-success">Klik Disini</a>
                             </div>
                           </div>
                         </div>
@@ -47,16 +47,16 @@
                             <div class="card-body">
                               <h5 class="card-title">Faktur Penjualan</h5>
                               <p class="card-text">Hanya penjelasan singkat.</p>
-                              <a href="#" class="btn btn-success">Klik Disini</a>
+                              <a href="penjualan" class="btn btn-success">Klik Disini</a>
                             </div>
                           </div>
                         </div>
                         <div class="col-sm-6">
                           <div class="card">
                             <div class="card-body">
-                              <h5 class="card-title">Faktur Supplier</h5>
+                              <h5 class="card-title">Faktur Pembelian</h5>
                               <p class="card-text">Hanya penjelasan singkat.</p>
-                              <a href="#" class="btn btn-success">Klik Disini</a>
+                              <a href="pembelian" class="btn btn-success">Klik Disini</a>
                             </div>
                           </div>
                         </div>

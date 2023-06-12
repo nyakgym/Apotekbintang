@@ -52,7 +52,7 @@
                                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='karyawan')?'active link-light bg-success' : 'link-dark'; ?>" href="karyawan"><i class="bi bi-table"></i> Data Karyawan</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='laporan')?'active link-light bg-success' : 'link-dark'; ?>" href="laporan"><i class="bi bi-clipboard2-fill"></i> Laporan Keuangan</a>
+                                            <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='laporan')?'active link-light bg-success' : 'link-dark'; ?>" href="laporan"><i class="bi bi-clipboard2-fill"></i> Laporan Penjualan</a>
                                         </li>
                 
                                     </ul>
@@ -72,7 +72,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col d-flex justify-content-end">
-                                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTambahUser">Tambah Obat</button>
+                                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTambahUser"> + Obat</button>
                                 </div>
                             </div>
                 
