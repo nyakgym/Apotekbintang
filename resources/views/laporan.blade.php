@@ -66,12 +66,12 @@
                 <div class="col-lg-9 mt-2">
                     <div class="card">
                         <div class="card-header">
-                            Halaman Data Obat
+                            Halaman Laporan Penjualan
                         </div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col d-flex justify-content-end">
-                                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTambahUser"> + Obat</button>
+                                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ModalTambahUser"> + Laporan</button>
                                 </div>
                             </div>
                 
@@ -80,7 +80,7 @@
                                 <div class="modal-dialog modal-xl modal-fullscreen-md-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data Obat</h1>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Laporan Penjualan</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
@@ -164,7 +164,7 @@
                             <!-- Akhir Modal Tambah Menu baru-->
                             <?php
                             if (empty($result)) {
-                                echo "Data Obat tidak ada";
+                                echo "Laporan Penjualan tidak ada";
                             } else {
                             foreach ($result as $row) {
                             ?>
