@@ -13,9 +13,7 @@ use App\Http\Controllers\IndexController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [IndexController::class,'home']);
 //Route::get('/home', function () {
  //   return view('dashboard');
 //});
