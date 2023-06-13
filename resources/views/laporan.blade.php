@@ -86,68 +86,25 @@
                                         <div class="modal-body">
                                             <form class="needs-validation" novalidate action="#" method="post" enctype="multipart/form-data">
                                                 <div class="row">
-                                                    <div class="col-lg-6">
-                                                        <div class="input-group mb-3">
-                                                            <input type="file" class="form-control" id="uploadFoto" placeholder="your name" name="foto" required>
-                                                            <label class="input-group-text"for="uploadFoto">Upload Foto Menu</label>
-                                                            <div class="invalid-feedback">
-                                                                Masukkan File Foto Menu
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6">
+                                                    <div class="col">
                                                         <div class="form-floating mb-3">
-                                                            <input type="text" class="form-control py-3" id="floatingInput" placeholder="Nama Menu" name="nama_menu" required>
-                                                            <label for="floatingInput">Nama Menu</label>
+                                                            <input type="text" class="form-control" id="floatingInput"
+                                                                placeholder="Your Name" name="nama" required>
                                                             <div class="invalid-feedback">
-                                                                Masukkan Nama Menu
+                                                                
                                                             </div>
+                                                            <label for="floatingInput">Laporan Penjualan</label>
                                                         </div>
                                                     </div>
+                
+                                                <div class="form-floating">
+                                                    <textarea class="form-control" id="floatingInput" style="height: 100px;" placeholder="Laporan"
+                                                        name="Laporan" required></textarea>
+                                                        <div class="invalid-feedback">
+                                                           
+                                                        </div>
+                                                        <label for="floatingInput"> Masukkan Laporan Penjualan</label>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <div class="form-floating mb-3">
-                                                            <input type="text" class="form-control" id="floatingInput" placeholder="keterangan" name="keterangan">
-                                                            <label for="floatingPassword">Keterangan</label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-lg-4">
-                                                        <div class="form-floating mb-3">
-                                                            <select class="form-select" aria-label="Default select example" name="kat_menu" required>
-                                                            <option selected hidden value="">Pilih Kategori Menu</option>
-                                                            <?php
-                                                            // foreach($select_kat_menu as $value){
-                                                            //     echo "<option value=".$value['id_kat_menu'].">$value[kategori_menu]</option>";
-                                                            //}
-                                                            ?>
-                                                            </select>
-                                                            <label for="floatingInput">Kategori Makanan atau Minuman</label>
-                                                            <div class="invalid-feedback">
-                                                                Pilih Kategori Makanan atau Minuman
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <div class="form-floating mb-3">
-                                                            <input type="number" class="form-control" id="floatingInput" placeholder="harga" name="harga" required>
-                                                            <label for="floatingInput">Harga</label>
-                                                            <div class="invalid-feedback">
-                                                                Masukkan Harga Menu
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <div class="form-floating mb-3">
-                                                            <input type="number" class="form-control" id="floatingInput" placeholder="stok" name="stok" required>
-                                                            <label for="floatingInput">Stok</label>
-                                                            <div class="invalid-feedback">
-                                                                Masukkan Stok
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                 
                                                 <div class="modal-footer">

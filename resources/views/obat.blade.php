@@ -127,7 +127,7 @@
                                                     <div class="col-12">
                                                         <div class="form-floating mb-3">
                                                             <input type="number" class="form-control" id="floatingInput" placeholder="harga" name="harga" required>
-                                                            <label for="floatingInput">Harga</label>
+                                                            <label for="floatingInput">Harga Obat</label>
                                                             <div class="invalid-feedback">
                                                                 Masukkan Harga Obat
                                                             </div>
@@ -146,7 +146,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="date" class="form-control" id="floatingInput" placeholder="keterangan" name="keterangan">
+                                                            <input type="date" class="form-control" id="floatingInput" placeholder="tanggal kadaluarsa" name="tgl_kal">
                                                             <label for="floatingInput">Tanggal Kadaluarsa</label>
                                                         </div>
                                                     </div>

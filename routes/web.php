@@ -31,3 +31,7 @@ Route::get('/penjualan', [IndexController::class,'penjualan']);
 Route::get('/pembelian', [IndexController::class,'pembelian']);
 Route::get('/karyawan', [IndexController::class,'karyawan']);
 Route::get('/laporan', [IndexController::class,'laporan']);
+
+Route::get('/login', function () {
+    return view('login');
+});
