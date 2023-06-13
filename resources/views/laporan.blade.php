@@ -84,7 +84,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <form class="needs-validation" novalidate action="proses/proses_input_menu.php" method="post" enctype="multipart/form-data">
+                                            <form class="needs-validation" novalidate action="#" method="post" enctype="multipart/form-data">
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="input-group mb-3">

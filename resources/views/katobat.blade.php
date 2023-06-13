@@ -88,7 +88,7 @@
                                         </div>
                 
                                         <div class="modal-body">
-                                            <form class="needs-validation" novalidate action="proses/proses_input_katmenu.php" method="POST">
+                                            <form class="needs-validation" novalidate action="#" method="POST">
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <div class="form-floating mb-3">
