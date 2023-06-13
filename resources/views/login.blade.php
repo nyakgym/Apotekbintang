@@ -15,7 +15,7 @@
         body {
             font-family: 'Poppins', sans-serif;
             min-height: 100vh;
-            background-image: url('../img/background.png');
+            background-image: url('../img/image2.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
