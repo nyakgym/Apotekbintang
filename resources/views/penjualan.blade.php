@@ -84,7 +84,7 @@
                                             <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data Penjualan</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
-                                        <div class="modal-body">
+                                        {{-- <div class="modal-body">
                                             <form class="needs-validation" novalidate action="#" method="post" enctype="multipart/form-data">
                                                 <div class="row">
                                                     <div class="col-lg-6">
@@ -149,7 +149,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> --}}
                 
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
