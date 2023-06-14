@@ -132,58 +132,46 @@
                 
                             <?php
                             //}
-                            if (empty($result)) {
-                                echo "Data Kategori obat tidak ada";
-                            } else {
+                            //if (empty($result)) {
+                              //  echo "Data Kategori obat tidak ada";
+                            //} else {
                             ?>
                             <!--Tabel Daftar Kategori Menu -->
                             <div class="table-responsive">
                                 <table class="table table-hover">
                                     <thead>
                                         <tr>
-                                            <th scope="col">No</th>
-                                            <th scope="col">Jenis Obat</th>
-                                            <th scope="col">Kategori Obat</th>
-                                            <th scope="col">Aksi</th>
-                                        </tr>
+                                        <th scope="col">id</th>
+                                        <th scope="col">Jenis Obat</th>
+                                        <th scope="col">Kategori Obat</th>
+                                        <th scope="col">Aksi</th>
+                                    </tr>
                                     </thead>
                                     <tbody>
-                
-                                        <?php
-                                        $no = 1;
-                                        foreach ($result as $row) {
-                                        ?>
-                
-                                        <tr>
-                                            <th scope="row">
-                                                <?php echo $no++ ?>
-                                            </th>
-                                            <td>
-                                                <?php echo ($row['jenis_menu']==1) ? "Makanan" : "Minuman" ?>
-                                            </td>
-                                            <td>
-                                                <?php echo $row['kategori_menu'] ?>
-                                            </td>
-                
-                                            <td class="d-flex">
-                                                <button class="btn btn-warning btn-sm me-1" data-bs-toggle="modal"
-                                                    data-bs-target="#ModalEdit<?php echo $row['id_kat_menu'] ?>"><i
-                                                        class="bi bi-pencil-square"></i></button>
-                                                <button class="btn btn-danger btn-sm me-1" data-bs-toggle="modal"
-                                                    data-bs-target="#ModalDelete<?php echo $row['id_kat_menu'] ?>"><i
-                                                        class="bi bi-trash3-fill"></i></button>
-                                            </td>
-                                        </tr>
-                
-                                        <?php
-                                        //}
-                                        ?>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Kapsul</td>
+                                        <td>Anti Depresan</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Tablet</td>
+                                        <td>Vitamin</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Sirup</td>
+                                        <td>Vitamin</td>
+                                        <td></td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <!--Tabel Daftar Kategori Menu -->
                             <?php
-                            }
+                            //}
                             ?>
                 
                         </div>
