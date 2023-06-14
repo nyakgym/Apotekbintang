@@ -47,7 +47,7 @@
                                         <li class="nav-item">
                                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='pembelian')?'active link-light bg-success' : 'link-dark'; ?>" href="pembelian"><i class="bi bi-cart4"></i> Pembelian</a>
                                         </li>
-                
+
                                         <li class="nav-item">
                                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='karyawan')?'active link-light bg-success' : 'link-dark'; ?>" href="karyawan"><i class="bi bi-person-fill"></i> Data Karyawan</a>
                                         </li>
@@ -83,7 +83,7 @@
                                 <div class="modal-dialog modal-xl modal-fullscreen-md-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah User</h1>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Kategori Obat</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                 
@@ -142,8 +142,8 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">No</th>
-                                            <th scope="col">Jenis Menu</th>
-                                            <th scope="col">Kategori Menu</th>
+                                            <th scope="col">Jenis Obat</th>
+                                            <th scope="col">Kategori Obat</th>
                                             <th scope="col">Aksi</th>
                                         </tr>
                                     </thead>
@@ -176,7 +176,7 @@
                                         </tr>
                 
                                         <?php
-                                        }
+                                        //}
                                         ?>
                                     </tbody>
                                 </table>
