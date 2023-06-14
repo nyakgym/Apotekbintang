@@ -93,12 +93,14 @@
                                                     <div class="col-lg-6">
                                                         <div class="form-floating mb-3">
                                                             <select class="form-select" name="jenismenu" id="">
-                                                                <option value="1">Makanan</option>
-                                                                <option value="2">Minuman</option>
+                                                                <option value="1">Kapsul</option>
+                                                                <option value="2">Semprot</option>
+                                                                <option value="3">Sirup</option>
+                                                                <option value="4">Tablet</option>
                                                             </select>
-                                                            <label for="floatingInput">Jenis Menu</label>
+                                                            <label for="floatingInput">Jenis Obat</label>
                                                             <div class="invalid-feedback">
-                                                                Masukkan Jenis Menu 
+                                                                Masukkan Jenis Obat
                                                             </div>
                                                             
                                                         </div>
@@ -108,9 +110,9 @@
                                                         <div class="form-floating mb-3">
                                                             <input type="text" class="form-control" id="floatingInput"
                                                                 placeholder="Kategori Menu" name="katmenu" required>
-                                                            <label for="floatingInput">Kategori Menu</label>
+                                                            <label for="floatingInput">Kategori Obat</label>
                                                             <div class="invalid-feedback">
-                                                                Masukkan Kategori Menu
+                                                                Masukkan Kategori Obat
                                                             </div>
                                                         </div>
                                                     </div>
