@@ -21,7 +21,7 @@ Route::get('/', function () {
 //    return view('menu');
 //});
 
-Route::get('/home', [IndexController::class,'home']);
+Route::get('/dashboard', [IndexController::class,'dashboard']);
 Route::get('/obat', [IndexController::class,'obat']);
 Route::get('/katobat', [IndexController::class,'katobat']);
 Route::get('/pemasok', [IndexController::class,'pemasok']);
@@ -36,3 +36,7 @@ Route::get('/login', function () {
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
