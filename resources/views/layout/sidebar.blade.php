@@ -8,13 +8,14 @@
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Pilihan</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav nav-pills flex-column justify-content-end flex-grow-1 ">
                         <li class="nav-item">
-                            <a class="nav-link ps-2 <?php echo ((isset ($_GET['x']) && $_GET['x']=='dashboard') || !isset($_GET['x']))?'active link-light bg-success' : 'link-dark'; ?>" aria-current="page" href="dashboard"><i class="bi bi-house-fill"></i> Dasboard</a>
+                            <a class="nav-link ps-2 <?php echo ((isset ($_GET['x']) && $_GET['x']=='dashboard') || !isset($_GET['x'])) ?'active link-light bg-success' : 'link-dark'; ?>" aria-current="page" href="dashboard"><i class="bi bi-house-fill"></i> Dasboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='obat')?'active link-light bg-success' : 'link-dark'; ?>" href="obat"><i class="bi bi-capsule"></i> Daftar Obat</a>
+                            <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='obat')?'active link-light bg-success' : 'link-dark'; ?>" href="obat"><i class="bi bi-capsule"></i></i> Daftar Obat</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ps-2 <?php echo (isset ($_GET['x']) && $_GET['x']=='katobat')?'active link-light bg-success' : 'link-dark'; ?>" href="katobat"><i class="bi bi-tags"></i> Kategori Obat</a>

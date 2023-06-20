@@ -14,9 +14,9 @@ use App\Http\Controllers\IndexController;
 */
 
 // Route::get('/', [IndexController::class,'home']);
-Route::get('/', function () {
-   return view('welcome');
-});
+// Route::get('/', function () {
+//    return view('welcome');
+// });
 //Route::get('/menu', function () {
 //    return view('menu');
 //});
