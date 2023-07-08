@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\{Route,Auth};
 use App\Http\Controllers\IndexController;
 /*
 |--------------------------------------------------------------------------
@@ -34,9 +34,8 @@ Route::get('/login', function () {
     return view('login');
 });
 Auth::routes();
-
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

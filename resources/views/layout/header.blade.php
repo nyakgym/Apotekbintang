@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class="container-lg">
-        <a class="navbar-brand" href="."><i class="bi bi-star-fill"></i></i></i> Apotek Bintang</a>
+        <a class="navbar-brand" href="."><i class="bi bi-star-fill"></i> Apotek Bintang</a>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
