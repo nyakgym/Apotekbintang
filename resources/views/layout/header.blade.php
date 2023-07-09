@@ -20,7 +20,7 @@
                         <li><a class="dropdown-item" href="#"><i class="bi bi-person-circle"></i> Profil</a></li>
                         <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#ModalUbahPassword"><i class="bi bi-key-fill"></i> Ubah Password</a>
                         </li>
-                        <li><a class="dropdown-item" href="../home"><i class="bi bi-box-arrow-left"></i> Logout</a></li>
+                        <li><a class="dropdown-item" href="login"><i class="bi bi-box-arrow-left"></i> Logout</a></li>
                     </ul>
                 </li>
             </ul>
