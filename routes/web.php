@@ -43,5 +43,5 @@ Route::get('/login', function () {
 Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::post('/obats', [ObatController::class, 'store'])->name('medicines.store');
+Route::post('/obats', [ObatController::class, 'store'])->name('obats.store');
 
