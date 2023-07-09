@@ -31,11 +31,10 @@ Route::get('/karyawan', [IndexController::class,'karyawan']);
 Route::get('/laporan', [IndexController::class,'laporan']);
 
 Route::get('/login', function () {
-    return view('login');
+    return view('home');
 });
 Auth::routes();
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // Auth::routes();
-
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
