@@ -21,8 +21,9 @@ public function store(Request $request)
 
     // Simpan data ke dalam database
     $medicine = new obat();
-    $medicine->nama = $request->input('name');
+    $medicine->nama = $request->input('nama');
     $medicine->kategoriobat = $request->input('kategoriobat');
+    $medicine->harga_obat = $request->input('harga_obat');
     $medicine->stock = $request->input('stock');
     $medicine->tanggal_kadaluarsa = $request->input('tanggal_kadaluarsa');
     $medicine->save();

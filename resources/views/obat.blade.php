@@ -98,7 +98,7 @@
                                                     </div> --}}
                                                     <div class="col-lg-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="text" class="form-control py-3" id="floatingInput" placeholder="Nama Menu" name="nama_menu" required>
+                                                            <input type="text" class="form-control py-3" id="floatingInput" placeholder="Nama Menu" name="nama" required>
                                                             <label for="floatingInput">Nama Obat</label>
                                                             <div class="invalid-feedback">
                                                                 Masukkan Nama Obat
@@ -110,7 +110,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="form-floating mb-3">
-                                                            <select class="form-select" aria-label="Default select example" name="kat_menu" required>
+                                                            <select class="form-select" aria-label="Default select example" name="kategoriobat" required>
                                                             <option selected hidden value="">Pilih Kategori Obat</option>
                                                             <?php
                                                             // foreach($select_kat_menu as $value){
@@ -126,7 +126,7 @@
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="number" class="form-control" id="floatingInput" placeholder="harga" name="harga" required>
+                                                            <input type="number" class="form-control" id="floatingInput" placeholder="harga_obat" name="harga_obat" required>
                                                             <label for="floatingInput">Harga Obat</label>
                                                             <div class="invalid-feedback">
                                                                 Masukkan Harga Obat
@@ -135,7 +135,7 @@
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="number" class="form-control" id="floatingInput" placeholder="stok" name="stok" required>
+                                                            <input type="number" class="form-control" id="floatingInput" placeholder="stock" name="stock" required>
                                                             <label for="floatingInput">Stok</label>
                                                             <div class="invalid-feedback">
                                                                 Masukkan Stok
@@ -146,7 +146,7 @@
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="form-floating mb-3">
-                                                            <input type="date" class="form-control" id="floatingInput" placeholder="tanggal kadaluarsa" name="tgl_kal">
+                                                            <input type="date" class="form-control" id="floatingInput" placeholder="tanggal_kadaluarsa" name="tgl_kadaluarsa">
                                                             <label for="floatingInput">Tanggal Kadaluarsa</label>
                                                         </div>
                                                     </div>
