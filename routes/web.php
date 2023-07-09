@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\{Route,Auth};
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ObatController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,3 +42,6 @@ Route::get('/login', function () {
 
 Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::post('/obats', [ObatController::class, 'store'])->name('medicines.store');
+

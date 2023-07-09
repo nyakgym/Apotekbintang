@@ -17,7 +17,8 @@ return new class extends Migration
         $table->string('kategoriobat');
         $table->integer('harga_obat');
         $table->integer('stok')->unsigned();
-        $table->timestamps('tanggal_kadaluarsa');
+        $table->date('tanggal_kadaluarsa');
+        $table->timestamps();
     });
     }
     /**

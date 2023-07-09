@@ -85,9 +85,9 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body lg-9">
-                                            <form class="needs-validation" novalidate action="#" method="post" enctype="multipart/form-data">
+                                            <form class="needs-validation" novalidate action="/obats" method="post" enctype="multipart/form-data">
                                                 <div class="row">
-                                                    <div class="col-lg-12">
+                                                    {{-- <div class="col-lg-12">
                                                         <div class="input-group mb-3">
                                                             <input type="file" class="form-control" id="uploadFoto" placeholder="your name" name="foto" required>
                                                             <label class="input-group-text"for="uploadFoto">Upload Foto Obat</label>
@@ -95,7 +95,7 @@
                                                                 Masukkan File Foto Obat
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div> --}}
                                                     <div class="col-lg-12">
                                                         <div class="form-floating mb-3">
                                                             <input type="text" class="form-control py-3" id="floatingInput" placeholder="Nama Menu" name="nama_menu" required>
